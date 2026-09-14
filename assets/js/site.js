@@ -37,7 +37,7 @@ if(pausa&&heroV){
   });
 }
 /* entrada */
-$$("[data-anim]").forEach(function(el){ el.style.setProperty("--retraso",(0.12+parseInt(el.dataset.anim,10)*0.11)+"s"); });
+$$("[data-anim]").forEach(function(el){ el.style.setProperty("--retraso",(0.04+parseInt(el.dataset.anim,10)*0.09)+"s"); });
 requestAnimationFrame(function(){ html.classList.add("cargado"); });
 
 /* ── muro de portadas ───────────────────────────────────── */
