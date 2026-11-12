@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gamalabs26.github.io/zapienz-scroll/sitemap.xml
+Sitemap: https://zapienz.gamalabs.ai/sitemap.xml
