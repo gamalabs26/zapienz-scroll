@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zgrad3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF3D3D"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#0B1F3A"/>
+  <path d="M108 132 H404 L180 380 H404" fill="none"
+        stroke="url(#zgrad3)" stroke-width="60"
+        stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.22"/>
+  <g stroke="#FFFFFF" stroke-width="14" fill="none">
+    <path d="M120 332 Q256 286 392 332"/>
+    <path d="M120 182 Q256 136 392 182"/>
+    <path d="M256 160 V356"/>
+    <path d="M120 182 V332"/>
+    <path d="M392 182 V332"/>
+  </g>
+  <g stroke="#2ED47A" stroke-width="14" stroke-linecap="round">
+    <line x1="182" y1="262" x2="182" y2="300"/>
+    <line x1="208" y1="244" x2="208" y2="314"/>
+    <line x1="234" y1="226" x2="234" y2="326"/>
+    <line x1="260" y1="218" x2="260" y2="334"/>
+    <line x1="286" y1="234" x2="286" y2="322"/>
+    <line x1="312" y1="250" x2="312" y2="312"/>
+    <line x1="338" y1="264" x2="338" y2="304"/>
+  </g>
+</svg>

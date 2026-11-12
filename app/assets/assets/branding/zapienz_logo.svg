@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zgrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF3D3D"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#0B1F3A"/>
+  <path d="M96 120 H416 L160 392 H416" fill="none"
+        stroke="url(#zgrad2)" stroke-width="64"
+        stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.22"/>
+  <g stroke="#FFFFFF" stroke-width="14" fill="none">
+    <path d="M112 336 Q256 288 400 336"/>
+    <path d="M112 176 Q256 128 400 176"/>
+    <path d="M256 152 V360"/>
+    <path d="M112 176 V336"/>
+    <path d="M400 176 V336"/>
+  </g>
+  <g stroke="#2ED47A" stroke-width="14" stroke-linecap="round">
+    <line x1="176" y1="268" x2="176" y2="304"/>
+    <line x1="204" y1="250" x2="204" y2="318"/>
+    <line x1="232" y1="230" x2="232" y2="330"/>
+    <line x1="260" y1="220" x2="260" y2="338"/>
+    <line x1="288" y1="236" x2="288" y2="324"/>
+    <line x1="316" y1="252" x2="316" y2="314"/>
+    <line x1="344" y1="266" x2="344" y2="306"/>
+  </g>
+  <text x="256" y="448" text-anchor="middle"
+        font-family="Inter, SF Pro, Arial, sans-serif"
+        font-size="56" font-weight="700"
+        fill="#FFC83D">Zapienz</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zgrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF3D3D"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M96 120 H416 L160 392 H416" fill="none"
+        stroke="url(#zgrad)" stroke-width="56"
+        stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.08"/>
+  <g stroke="#FFFFFF" stroke-width="10" fill="none" opacity="0.10">
+    <path d="M128 336 Q256 296 384 336" />
+    <path d="M128 176 Q256 136 384 176" />
+    <path d="M256 160 V352" />
+    <path d="M128 176 V336" />
+    <path d="M384 176 V336" />
+  </g>
+  <g stroke="#2ED47A" stroke-width="10" stroke-linecap="round" filter="url(#softGlow)" opacity="0.12">
+    <line x1="176" y1="264" x2="176" y2="300"/>
+    <line x1="200" y1="248" x2="200" y2="312"/>
+    <line x1="224" y1="232" x2="224" y2="320"/>
+    <line x1="248" y1="220" x2="248" y2="328"/>
+    <line x1="272" y1="232" x2="272" y2="320"/>
+    <line x1="296" y1="246" x2="296" y2="308"/>
+    <line x1="320" y1="260" x2="320" y2="300"/>
+    <line x1="344" y1="242" x2="344" y2="312"/>
+  </g>
+</svg>
